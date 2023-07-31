@@ -32,6 +32,11 @@ name = "$&$&Mohammed$&$&"
 print(name.strip('$&'))
 msg = "I %7 Python And Although I %7 GSG with Zakaria"
 print(msg.replace('%7','love'))
+'''title make first letter from every word capital
+but capitalize make just first letter in first word capital '''
+name_33 = 'yazeed osama yousef elderawy'
+print(name_33.title())
+print(name_33.capitalize())
 num1 = "4"
 num2 = "56"
 num3 = "963"
@@ -48,10 +53,19 @@ first_name = "Hadeel"
 print(f'''***********{first_name}
 ***********{first_name}***********
 {first_name}***********
-''')
+ ''')
 name_one = "HaLA"
 name_two = "shaHD"
 print(name_one.swapcase())
 print(name_two.swapcase())
 print(name_one.lower())
 print(name_two.upper())
+print(name_one.isupper())
+print(name_two.islower())
+msg = "I Love Python And Although I Love GSG with Zakaria"
+print(f'''Number of <Love> is : {msg.count('Love')}''')
+print(f'''Number of <t> is : {msg.count('t')}''')
+name = "Zakaria"
+print(name.find('r'))
+msg = "I %7 Python And Although I %7 GSG with Zakaria"
+print(msg.replace('%7','love', 1))
